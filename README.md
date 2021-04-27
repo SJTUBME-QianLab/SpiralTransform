@@ -39,7 +39,7 @@ After training, the weights will be saved in ```./result``` folder
 The evaluation results will be saved in ```classification_LinearRegression_result.txt``` file including acc, recall, precision, f1, sensitivity and specificity
 
 # Citation
-Please cite the following paper if you use this repository in your reseach.
+Please cite the following paper if you use this repository in your research.
 ```
 @inproceedings{
   title     = {Combined Spiral Transformation and Model-driven Multi-modal Deep Learning Scheme for Automatic Prediction of TP53 Mutation in Pancreatic Cancer},
