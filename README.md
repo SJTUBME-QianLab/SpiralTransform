@@ -12,7 +12,7 @@ Xiahan Chen, Xiaozhu Lin, Xiaohua Qian*
 # Abstract
 Pancreatic cancer is a malignant form of cancer with one of the worst prognoses. The poor prognosis and resistance to therapeutic modalities have been linked to TP53 mutation. Pathological examinations, such as biopsies, cannot be frequently performed in clinical practice; therefore, noninvasive and reproducible methods are desired. However, automatic prediction methods based on imaging have drawbacks such as poor 3D information utilization, small sample size, and ineffectiveness multimodal fusion. In this study, we proposed a model-driven multi-modal deep learning scheme to overcome these challenges. A spiral transformation algorithm was developed to obtain 2D images from 3D data, with the transformed image inheriting and retaining the spatial correlation of the original texture and edge information. The spiral transformation could be used to effectively apply the 3D information with less computational resources and conveniently augment the data size with high quality. Moreover, model-driven items were designed to introduce prior knowledge in the deep learning framework for multi-modal fusion. The model-driven strategy and spiral transformation-based data augmentation can improve the performance of the small sample size. A bilinear pooling module was introduced to improve the performance of fine-grained prediction. The experimental results show that the proposed model gives the desired performance in predicting TP53 mutation in pancreatic cancer, providing a new approach for noninvasive gene prediction. The proposed methodologies of spiral transformation and model-driven deep learning can also be used for the artificial intelligence community dealing with oncological applications. Our source codes with a demon will be released at https://github.com/SJTUBMEQianLab/SpiralTransform.
 
-# requied
+# required
 Our code is based on **Python3.6** There are a few dependencies to run the code. The major libraries we depend are
 - PyTorch1.1.0 (http://pytorch.org/)
 - tensorboardX 1.8
@@ -32,7 +32,7 @@ Run the ```batch_train_mini.py``` by this command:
 ```
 python batch_train_mini.py
 ```
-Te detailed parameters can be changed in ```batch_train_mini.py``` 
+The detailed parameters can be changed in ```batch_train_mini.py``` 
 
 After training, the weights will be saved in ```./result``` folder
 
